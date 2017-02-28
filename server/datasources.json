@@ -1,0 +1,16 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "FormDS": {
+    "host": "localhost",
+    "port": 27017,
+    "url": "",
+    "database": "Formio",
+    "password": "",
+    "name": "FormDS",
+    "user": "",
+    "connector": "mongodb"
+  }
+}
