@@ -4,7 +4,7 @@
  */
 (function (global) {
   System.config({
-      defaultJSExtensions: true,
+    defaultJSExtensions: true,
     paths: {
       // paths serve as alias
       'npm:': 'node_modules/'
@@ -31,7 +31,7 @@
       'angular-in-memory-web-api': 'npm:angular-in-memory-web-api/bundles/in-memory-web-api.umd.js',
       '@ng-bootstrap/ng-bootstrap': 'npm:@ng-bootstrap/ng-bootstrap/bundles/ng-bootstrap.js',
       'ng-semantic': 'npm:ng-semantic',
-        'angular-in-memory-web-api': 'npm:angular-in-memory-web-api/bundles/in-memory-web-api.umd.js',
+      'angular-in-memory-web-api': 'npm:angular-in-memory-web-api/bundles/in-memory-web-api.umd.js',
       'ng2-formio': 'npm:ng2-formio/dist/index.js',
       'ng2-bootstrap': 'npm:ng2-bootstrap',
       'ng2-select': 'npm:ng2-select',
@@ -61,18 +61,24 @@
         main: 'index.js',
         defaultExtension: 'js'
       },
-      'angular2-in-memory-web-api': { 
-          main: 'index.js', defaultExtension: 'js'
+      'angular2-in-memory-web-api': {
+        main: 'index.js',
+        defaultExtension: 'js'
       },
-    // ng2-bootstrap
-    'ng2-bootstrap': {
-        format: 'cjs', main: 'bundles/ng2-bootstrap.umd.js', defaultExtension: 'js' 
-      },  // ng2-select
-    'ng2-select': {
-        format: 'cjs', main: 'bundles/ng2-select.umd.js', defaultExtension: 'js' 
+      // ng2-bootstrap
+      'ng2-bootstrap': {
+        format: 'cjs',
+        main: 'bundles/ng2-bootstrap.umd.js',
+        defaultExtension: 'js'
+      }, // ng2-select
+      'ng2-select': {
+        format: 'cjs',
+        main: 'bundles/ng2-select.umd.js',
+        defaultExtension: 'js'
       },
-    'moment': { 
-        main: 'moment.js', defaultExtension: 'js' 
+      'moment': {
+        main: 'moment.js',
+        defaultExtension: 'js'
       }
     }
   });

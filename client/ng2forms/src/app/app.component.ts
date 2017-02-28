@@ -17,19 +17,14 @@ import { Component } from '@angular/core';
 })
 export class AppComponent  { 
   name = 'Angular'; 
-  items: any = [
-    {
-      icon : "",
-      title: "Home",
-      path : "/"
-    },{
+  items: any = [{
       icon : "home",
       title: "Home",
       path : "/home"
     },
     {
       icon : "cubes",
-      title: "Products",
+      title: "Staff",
       path : "/products"
     }
   ]

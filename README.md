@@ -4,6 +4,8 @@ The project generates Forms using form.io builder, presest them in mongoDB and R
 
 To start the server 
 
+`npm install`
+
 `node .`
 
 **maker sure that mongodb server is running**
