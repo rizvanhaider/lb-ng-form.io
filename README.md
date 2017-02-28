@@ -5,8 +5,11 @@ The project generates Forms using form.io builder, presest them in mongoDB and R
 To start the server 
 
 `node .`
-*maker sure that mongodb server is running*
 
-Angular 1 form builder is running at http://localhost:3333/builder
+**maker sure that mongodb server is running**
 
-Angular 2 form viewer is running at http://localhost:3333/builder/viewer.html
+ - Angular 1 form builder is running at http://localhost:3333/builder
+
+ - Angular 1 form viewer is running at http://localhost:3333/builder/viewer.html
+
+ - start the angualr 2 app by running `npm start` in `client/ng2forms` directory
